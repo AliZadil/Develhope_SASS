@@ -1,4 +1,6 @@
 div {
+  display: flex;
+  flex-direction: column;
   border: solid 1px red;
   align-items: center;
   justify-items: center;
@@ -13,4 +15,16 @@ div h1 {
 div section {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+}
+div section article {
+  border: solid 1px green;
+  padding: 10px;
+  text-align: center;
+}
+div section .blue {
+  color: blue;
+}
+div section .red {
+  color: red;
 }/*# sourceMappingURL=style.css.map */

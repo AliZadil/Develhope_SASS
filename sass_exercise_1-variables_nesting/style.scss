@@ -1,4 +1,6 @@
 div{
+    display: flex;
+    flex-direction: column;
     border: solid 1px red;
     align-items: center;
     justify-items: center;
@@ -11,5 +13,17 @@ div{
     section{
         display: flex;
         justify-content: space-between;
+        padding: 10px;
+        article{
+            border: solid 1px green;
+            padding: 10px;
+            text-align: center;
+        }
+        .blue{
+            color: blue;
+        }
+        .red{
+            color: red;
+        }
     }
 }
