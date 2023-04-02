@@ -1,1 +1,35 @@
-/*# sourceMappingURL=style.css.map */
+div {
+  border: solid 1px red;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+div h1 {
+  -webkit-text-decoration: underline blue;
+          text-decoration: underline blue;
+  color: green;
+}
+div .first {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 10px;
+}
+div .first .red {
+  color: red;
+}
+div .first .blue {
+  color: blue;
+}
+div .first article {
+  border: solid 1px green;
+}
+div .second {
+  margin: 10px;
+  text-align: center;
+  color: green;
+  border: solid 1px blue;
+}/*# sourceMappingURL=style.css.map */
