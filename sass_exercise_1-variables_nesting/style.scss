@@ -1,1 +1,15 @@
-
+div{
+    border: solid 1px red;
+    align-items: center;
+    justify-items: center;
+    h1{
+        color: green;
+        text-decoration: underline blue;
+        align-self: center;
+        justify-self: center;
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+    }
+}
