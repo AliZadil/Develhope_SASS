@@ -1,34 +1,43 @@
 div {
   border: solid 1px red;
   display: flex;
-  flex: 1;
+  align-self: center;
+  justify-self: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   justify-items: center;
+  width: 95%;
+  padding: 10px;
 }
 div h1 {
+  display: flex;
   border-bottom: solid 1px blue;
   color: green;
 }
-div .first {
+div section {
+  width: 100%;
   display: flex;
   flex-direction: row;
   text-align: center;
   padding: 10px;
+  margin: 10px;
 }
-div .first .red {
+div section .red {
   color: red;
 }
-div .first .blue {
+div section .blue {
   color: blue;
 }
-div .first article {
+div section article {
   border: solid 1px green;
 }
-div .second {
-  margin: 10px;
+div .footer {
+  width: 100%;
+}
+div .footer article {
+  font-size: 24px;
   text-align: center;
   color: green;
-  border: solid 1px blue;
+  border-color: blue;
 }/*# sourceMappingURL=style.css.map */
