@@ -1,12 +1,16 @@
+$reding: red;
+$bluing: blue;
+$greening: green;
+
 div{
     display: flex;
     flex-direction: column;
-    border: solid 1px red;
+    border: solid 1px $reding;
     align-items: center;
     justify-items: center;
     h1{
-        color: green;
-        border-bottom: solid 1px blue;
+        color: $greening;
+        border-bottom: solid 1px $bluing;
         align-self: center;
         justify-self: center;
     }
@@ -15,15 +19,15 @@ div{
         justify-content: space-between;
         padding: 10px;
         article{
-            border: solid 1px green;
+            border: solid 1px $greening;
             padding: 10px;
             text-align: center;
         }
         .blue{
-            color: blue;
+            color: $bluing;
         }
         .red{
-            color: red;
+            color: $reding;
         }
     }
 }
