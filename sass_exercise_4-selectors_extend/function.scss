@@ -1,0 +1,11 @@
+@function rems($value) {
+    $result:calc($value / 16);
+    $rems:  $result * 1rem; 
+    @return $rems;
+}
+
+$super-red: red;
+$super-green: green;
+$super-blue: blue;
+$one-rem: rems(16);
+$one-and-a-half-rem:rems(24);

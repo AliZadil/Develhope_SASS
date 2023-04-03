@@ -1,1 +1,46 @@
-/*# sourceMappingURL=style.css.map */
+div {
+  width: 95%;
+  text-align: center;
+  margin: 1rem auto;
+  border: solid 1px red;
+}
+div h1, div h2 {
+  display: inline-block;
+  color: green;
+  border-bottom: solid 1px blue;
+}
+div h2 {
+  display: block;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: green;
+  border: solid 1px red;
+  font-size: 1.5rem;
+}
+div .body {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+div .body article {
+  padding: 1rem;
+  color: blue;
+  border: solid 1px green;
+  font-size: 1rem;
+}
+div .body article:nth-of-type(even) {
+  color: red;
+  border: solid 1px green;
+  font-size: 1rem;
+}
+div .footer {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  color: green;
+  border: solid 1px blue;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
