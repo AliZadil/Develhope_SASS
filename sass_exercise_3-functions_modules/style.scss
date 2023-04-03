@@ -1,0 +1,39 @@
+@use "function.scss" as f;
+
+@mixin article-card($color, $border-color,$font-size: f.$one-rem){
+    color:$color;
+    border: solid 1px $border-color;
+    font-size: $font-size;
+}
+div{
+    width: 95%;
+    text-align: center;
+    margin: f.$one-rem auto;
+    border: solid 1px f.$super-red;
+    h1{
+        display: inline-block;
+        color: f.$super-green;
+        border-bottom: solid 1px f.$super-blue;
+    }
+    section{
+        display: flex;
+        padding-left: f.$one-rem;
+        padding-right: f.$one-rem;
+        padding-bottom: f.$one-rem;
+        .blue{
+            @include article-card(f.$super-blue, f.$super-green)
+        }
+        .red{
+            @include article-card(f.$super-red, f.$super-green)
+        }
+        article{
+            padding: 10px;
+        }
+    }
+    .footer{
+        margin-left: f.$one-rem;
+        margin-bottom: f.$one-rem;
+        margin-right: f.$one-rem;
+        @include article-card(f.$super-green, f.$super-blue, f.$one-and-a-half-rem)
+    }
+}
