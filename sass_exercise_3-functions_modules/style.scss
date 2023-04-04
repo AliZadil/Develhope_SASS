@@ -2,18 +2,18 @@
 
 @mixin article-card($color, $border-color,$font-size: f.$one-rem){
     color:$color;
-    border: solid 1px $border-color;
+    border: solid f.rems(1) $border-color;
     font-size: $font-size;
 }
 div{
     width: 95%;
     text-align: center;
     margin: f.$one-rem auto;
-    border: solid 1px f.$super-red;
+    border: solid f.rems(1) f.$super-red;
     h1{
         display: inline-block;
         color: f.$super-green;
-        border-bottom: solid 1px f.$super-blue;
+        border-bottom: solid f.rems(1) f.$super-blue;
     }
     section{
         display: flex;

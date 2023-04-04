@@ -2,12 +2,12 @@ div {
   width: 95%;
   text-align: center;
   margin: 1rem auto;
-  border: solid 1px red;
+  border: solid 0.0625rem red;
 }
 div h1 {
   display: inline-block;
   color: green;
-  border-bottom: solid 1px blue;
+  border-bottom: solid 0.0625rem blue;
 }
 div section {
   display: flex;
@@ -17,12 +17,12 @@ div section {
 }
 div section .blue {
   color: blue;
-  border: solid 1px green;
+  border: solid 0.0625rem green;
   font-size: 1rem;
 }
 div section .red {
   color: red;
-  border: solid 1px green;
+  border: solid 0.0625rem green;
   font-size: 1rem;
 }
 div section article {
@@ -33,6 +33,6 @@ div .footer {
   margin-bottom: 1rem;
   margin-right: 1rem;
   color: green;
-  border: solid 1px blue;
+  border: solid 0.0625rem blue;
   font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
